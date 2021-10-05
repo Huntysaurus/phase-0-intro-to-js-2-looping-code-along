@@ -16,7 +16,7 @@
 
 wrapGifts(gifts);
 
-function writeCards(names, events) {
+function writeCards(names) {
     let messages = [];
     for (let i = 0; i < names.length; i++) {
         messages.push(`Thank you, ${names[i]}, for the wonderful surprise gift!`)
